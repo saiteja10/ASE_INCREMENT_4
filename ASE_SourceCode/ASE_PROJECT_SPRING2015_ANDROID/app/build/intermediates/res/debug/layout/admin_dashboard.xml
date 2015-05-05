@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Item Details"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onChangeItemDetails" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Orders"
+        android:id="@+id/button5"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onViewOrders" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Item"
+        android:id="@+id/button7"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onAddItem" />
+</LinearLayout><!-- From: file:/C:/Users/saiteja893/Documents/GitHub/ASE_INCREMENT_4/ASE_SourceCode/ASE_PROJECT_SPRING2015_ANDROID/app/src/main/res/layout/admin_dashboard.xml -->
